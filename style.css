@@ -1,0 +1,50 @@
+body{
+	margin:0px;/*貼齊上方*/
+}
+
+
+
+.frame{
+	width:100%;/*滿版*/
+	display:flex;/*模式*/
+	justify-content:center;/*左右Box置中*/
+	align-items:center;
+	margin-left:auto;margin-right:auto;
+	background-color:#3B5897;
+}
+.left{
+
+	width:500px;/*左邊box像素*/
+
+}
+.right{
+	align-items:flex-end;
+	width:500px;/*右邊box像素*/
+	/*不能超過1200*/
+
+}
+.frame1{
+	margin:0px;/*貼齊上方*/
+	width:100%;/*滿版*/
+	display:flex;/*模式*/
+	justify-content:center;/*左右Box置中*/
+	align-items:center;
+	margin-left:auto;margin-right:auto;
+	background-color:#f0f0f0;
+	background: -webkit-linear-gradient(white,#d5d6e6);
+	background: -o-linear-gradient(white,#d5d6e6);
+	background: -moz-linear-gradient(white,#d5d6e6);
+	background: linear-gradient(white,#d5d6e6);
+
+	}
+
+.frame2{
+	margin:50;/*貼齊上方*/
+	width:1000px;/*滿版*/
+	display:flex-column;/*模式*/
+	justify-content:center;/*左右Box置中*/
+	align-items:center;
+	margin-left:auto;margin-right:auto;
+
+
+	}
